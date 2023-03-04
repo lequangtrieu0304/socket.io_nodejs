@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT APP</title>
+</head>
+<body>
+    <main>
+        <h1>Chat app</h1>
+        <form id="form-message">
+            <input type="text" id="input-message">
+            <button type="submit">Send</button>
+            <button type="button" id="btn-share-location">Gửi vị trí</button>
+        </form>
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.0/qs.min.js" integrity="sha512-/l6vieC+YxaZywUhmqs++8uF9DeMvJE61ua5g+UK0TuHZ4TkTgB1Gm1n0NiA86uEOM9JJ6JUwyR0hboKO0fCng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/clientChat.js"></script>
+</body>
+</html>
